@@ -1038,7 +1038,7 @@ HTML_UI = """
             <div id="sec-pricing" class="content-section hidden space-y-8">
                 <div class="text-center max-w-2xl mx-auto py-4">
                     <h2 class="text-2xl font-black text-slate-900 mb-1">Select Your Plan (30 Days Validity)</h2>
-                    <p class="text-xs text-slate-500">Scan QR Code with GPay, PhonePe, or Paytm for ₹1, ₹2, or ₹5.</p>
+                    <p class="text-xs text-slate-500">Scan QR Code with GPay, PhonePe, or Paytm for ₹0, ₹2, or ₹5.</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -1046,11 +1046,11 @@ HTML_UI = """
                         <div>
                             <span class="text-xs font-bold uppercase text-brand">Starter Plan</span>
                             <div class="my-4">
-                                <span class="text-4xl font-black text-slate-900">₹1</span>
+                                <span class="text-4xl font-black text-slate-900">₹0</span>
                                 <span class="text-xs text-slate-500">/ 30 days</span>
                             </div>
                         </div>
-                        <button onclick="openPaymentModal('Starter Plan', '₹1')" class="mt-6 w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold rounded-lg text-xs transition">Purchase for ₹1</button>
+                        <button onclick="openPaymentModal('Starter Plan', '₹0')" class="mt-6 w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold rounded-lg text-xs transition">Purchase for ₹0</button>
                     </div>
 
                     <div class="bg-white p-6 rounded-xl border-2 border-brand flex flex-col justify-between shadow-md">
