@@ -848,7 +848,7 @@ HTML_UI = """
             <span class="font-black text-lg md:text-xl text-slate-900 tracking-tight">Semrush Analytics India</span>
         </div>
         <div id="userNav" class="flex items-center gap-3 text-xs font-semibold">
-            <button onclick="showSection('pricing')" class="hidden sm:inline text-slate-600 hover:text-brand transition">Purchase Plans (₹1, ₹2, ₹5)</button>
+            <button onclick="showSection('pricing')" class="hidden sm:inline text-slate-600 hover:text-brand transition">Purchase Plans (₹0, ₹2, ₹5)</button>
             <button onclick="openAuthModal('signin')" class="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-lg border border-slate-300">Log In</button>
             <button onclick="openAuthModal('signup')" class="px-3 py-1.5 bg-brand text-white rounded-lg font-bold">Register</button>
         </div>
